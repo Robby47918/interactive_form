@@ -10,7 +10,9 @@
 <body>
     <h1>User Registration Form</h1>
 
-    <form id="userform">
+        <div id="feedback"></div>
+
+    <form id="registration-form">
         <label for="username">Username</label>
         <input type="text" id="username" required>
 <br>
@@ -24,9 +26,12 @@
         <input type="password" id="password" required>
 <br>
         <button type="submit">Register Form</button>
-        <div id="form-feedback">View Results Here</div>
     </form>
+    <button type="button" id="view-saved-data">View Saved Data</button>
+    <div id="saved-data"></div>
+    <button type="button" id="clear-saved-data">Clear Saved Data</button>
+    
+
     <script src="scripts.js"></script>
-    </div>
 </body>
 </html>
